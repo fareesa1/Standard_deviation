@@ -41,9 +41,3 @@ for i in squared_list:
     sum =sum + i
 
 #dividing the sum by the total values
-result = sum/ (len(data)-1)
-
-# getting the deviation by taking square root of the result
-std_deviation = math.sqrt(result)
-print(std_deviation)
-# print("derived using predefined function ",statistics.stdev(data))
